@@ -1,0 +1,384 @@
+body{
+    font-family: "Open Sans", Helvetica, sans-serif;
+    background: #001821;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.42;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a{
+ color: inherit;   
+}
+ul
+{
+    padding: 0;
+    margin: 0;
+}   
+ul li{
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    font-weight: normal;
+} 
+p{
+    margin-top: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.main-paige-wrapper{
+    background: url("./img/lion-header.png") center top no-repeat, url("./img/bottom-pic.png") right -5px bottom 160px no-repeat;
+}
+.container{
+    margin: 0 auto; 
+    width: 1150px;
+    position: relative;
+}
+
+.header{
+    height: 125px;  
+    position: relative; 
+    margin-bottom: 77px;
+}
+.logo{
+    display: block; 
+    position: absolute; 
+    top: 29px;
+    left: 0;    
+}
+.navigation{
+    position: absolute; 
+    top: 40px;
+    left: 164px;
+}
+.contacts{
+    position: absolute; 
+    top: 29px;
+    right: 9px;
+    text-decoration: normal;
+    text-align: right;
+}
+.contacts__foot{
+    top: 24px;
+    right: 10px;
+}
+.contacts__desc{
+    color: #9A9A9A;
+    font-size: 11px;
+    line-height: 20px;    
+}
+.navigation__item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 51px;
+}
+.navigation__item--active .navigation__link {
+    color: #DA0100;
+} 
+.navigation__link{
+    font-size: 14px;
+    text-decoration: none;
+}
+.navigation__link:hover{
+    color:#DA0100;
+}
+ 
+.contacts__phone{
+    text-decoration: none;
+    font-size: 26px;
+    font-style: normal;
+}
+
+.contacts__dropdown-title{
+    font-size:  13px;
+    text-decoration: underline;
+    color:#DA0100;
+    font-style: normal;
+    margin-top: -9px;
+    margin-right: 3px;
+}
+.hero__text-section{
+    width: 600px;
+}
+.hero__title{
+    font-size: 73px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    line-height: 95px;
+    margin-bottom: 30px;
+}
+.hero__subtitle{
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 47px;
+}
+.btn{
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 45px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none; 
+}
+.btn:hover{
+    background: #DA0100;
+}
+.hero__content{
+    margin-bottom: 265px;
+}
+.tours{
+    margin-bottom: 130px;
+}
+.tours__title{
+    position: relative;
+    margin-bottom: 55px;
+}
+.tours__title-name{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 2px;
+}
+.tours__img{
+    display: block;
+    position: absolute;
+    left: 289px;
+    top: 8px;
+}
+.tours__item-country{
+    display: inline-block;
+    width: 362px;
+    min-height: 450px;
+    background: #fff;
+    margin-right: 22px;
+    border-radius:5px;
+}
+.tours__item-country:last-child{
+    margin-right: 0;
+}
+.tours__info{
+    padding: 10px 22px;
+    color: #000000;
+}
+.country{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 17px;
+    margin-bottom: 21px;
+}
+.country__feature{
+    display: inline-block;
+    vertical-align: top;
+    width: 135px;
+    margin-right: 25px;
+}
+.country__feature:last-child{
+    margin-right: 0;
+}
+.country__feature-text{
+    display: inline-block;
+    color: #666666;
+    font-size: 16px;    
+    padding-left: 10px;
+}
+.country__text{
+    font-size: 14px;
+    align-items: center;
+    color: #303030;
+    margin-top: 19px;
+    line-height: 21px;
+    margin-bottom: 40px;
+}
+.country__link{
+    padding: 18px 31px;
+    margin-left: 5px;
+    border: 1px solid #F5170E;
+    font-size: 14px;
+    line-height: 16px;
+    color: #F5170E;
+    border-radius: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.country__link:hover{
+    background: #F5170E;
+    color: #fff;
+}
+.news__item{
+    width: 557px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-right: 19px;
+}
+.news__item:last-child{
+    margin-right: 0;
+}
+.news__cover{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .9;
+}
+.news__text-content{
+    position: absolute;
+    left: 6px;
+    right: 0;
+    bottom: 0;
+    padding: 23px 25px; 
+    min-height: 166px;
+}
+.news__date{
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 12px;
+}
+.news__title{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 12px;
+    letter-spacing: 1px;
+}
+.section__title{
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 53px;
+}
+.pager{
+    text-align: center;
+    margin-top: 54px;
+    margin-left: 16px;
+    margin-bottom: 150px;
+}
+.pager__diplay,.pager__list{
+    display: inline-block;
+    vertical-align: middle;
+}
+.pager__diplay{
+    margin-right: 24px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.pager__item{
+    display: inline-block;
+    vertical-align: middle;
+}   
+.pager__item--active .pager__link{
+    background:#FFFFFF;
+    color:#000000;
+}
+.pager__link{
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius:50%;  
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}
+.about:before {
+    content: "";
+    width: 490px;
+    height: 505px;
+    background: url("./img/gates.jpg") center center/ cover no repeat;
+}
+.about__desc{
+    background: url("./img/mountains.png") no-repeat;
+    padding: 70px 81px;
+    width: 785px;
+    height: 505px;
+    margin-left: -141px;
+    margin-top: 94px;
+}
+.about:before, .about__desc{
+    display: inline-block;
+    vertical-align: top;
+}
+.about__title{
+    font-weight:bolder;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 41px;    
+    color:#000000;
+    margin-top: 4px;
+}
+.about__desc--text{
+    margin-bottom: 57px;
+    font-size: 16px;
+    line-height: 27px;    
+    width: 502px;
+    color:#060606;
+}
+.about__desc--text p {
+    margin-bottom: 20px;
+}
+.about__desc--text p:last-child {
+    margin-bottom: 0;
+}
+.footer-container__content{
+    border-top: 1px solid #575555;
+    margin-top: 3px;
+    
+}
+.footer{
+    margin-top: 20px;
+    height: 123px;
+    position: relative;
+}
+.socials_link{
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;   
+    background: center center no-repeat; 
+}
+.socials__item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.socials__item:last-child{
+    margin-right: 0;
+}
+.socials{
+    position: absolute;
+    top: 33px;
+    right: 274px;
+}
+.socials__item--icon--telegram .socials_link{
+    background-image: url("./img/telegram.png");
+}
+.socials__item--icon--telegram .socials_link:hover{
+    background-image: url("./img/tg-hover.png");
+}
+
+.socials__item--icon--vk .socials_link{
+    background-image: url("./img/vk.png");
+}
+.socials__item--icon--vk .socials_link:hover{
+    background-image: url("./img/vk-hover.png");
+}
+
+.socials__item--icon--fb .socials_link{
+    background-image: url("./img/fb.png");
+}
+.socials__item--icon--fb .socials_link:hover{
+    background-image: url("./img/fb-hover.png");
+}
+
+.socials__item--icon--insta .socials_link{
+    background-image: url("./img/insta.png");
+}
+.socials__item--icon--insta .socials_link:hover{
+    background-image: url("./img/inst-hover.png");
+}
